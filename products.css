@@ -1,0 +1,286 @@
+body{
+    background-color: black;
+    font-family: serif ;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+    margin:0 auto;
+    margin-bottom: 10px;
+    width:960px;
+}
+
+section{
+    border: solid 0px;
+    margin-left : auto ;
+    margin-right : auto ;
+    width: 960px;
+    background:url("./img/haikei2.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.header-box {
+    margin-left : 0;
+    margin-right : 0;
+    width: 960px;
+}
+
+.logo {
+    float: left;
+    display:block;
+    margin-right: 20px;
+}
+
+.cart {
+    float: right;
+    display:block;
+    width:30px;
+    height:30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background:url("./img/cart.png")  no-repeat;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    margin:0 auto;
+    margin-bottom: 10px;
+    width:960px;
+    border-top: dashed 1px #CCCCCC;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.topfood{
+    float: left;
+    border-right: solid 1px;
+    border-color: yellow;
+    margin: 2px;
+    display: block;
+    flex: 1;
+    list-style-type: none;
+}
+
+
+li{
+    list-style-type:none;
+    margin-top: 30px;
+}
+
+
+a,p{
+    text-decoration: none;
+    color: yellow;
+}
+
+p{
+  border-right: solid 0px;
+  margin:0 auto;
+}
+
+.areo_menu{
+    border-right: solid 1px;
+    width:960px;
+    margin-top:20px;
+}
+
+.img {
+    width:200px;
+    height:150px;
+}
+
+.flex{
+    width:960px;
+    height:150px;
+}
+
+.content {
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 960px;
+}
+
+.cart-list-title {
+  clear:both;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-list-title .cart-list-price{
+  margin-left: 700px;
+}
+
+.cart-list-title .cart-list-num {
+  margin-left: 150px;
+}
+
+.cart-list .cart-item {
+  clear:both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-list .cart-item-img{
+  width:120px;
+}
+
+.cart-list .cart-item-name{
+  position: absolute;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.cart-item-del{
+  display: inline;
+  position: absolute;
+  margin-left: 470px;
+}
+
+.cart-list .cart-item-price {
+  position: absolute;
+  margin-left: 560px;
+  color: #FF0000;
+}
+
+.cart-list .form_select_amount {
+  float:right;
+  margin-left: 50px;
+}
+
+.cart-list .cart-item-num {
+  width:100px;
+  height:30px;
+  font-size: 1.2em;
+}
+
+.cart-list .cart-item-num2 {
+    width: 50px;
+}
+
+.buy-sum-box{
+  clear:both;
+  margin-top: 10px;
+}
+
+.buy-sum-box .buy-sum-title{
+  margin-left: 620px;
+}
+
+.buy-sum-box .buy-sum-price{
+  margin-left: 30px;
+  font-size: 2em;
+  color: #FF0000;
+}
+
+.buy-btn {
+  display:block;
+  margin:10px auto;
+  width:960px;
+  height:60px;
+  color: #ffffff;
+  background-color: #FF8A00;
+  font-size: 1.4em;
+  border:none;
+}
+
+.cart-list-title {
+  clear:both;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-list-title .cart-list-price{
+  margin-left: 700px;
+}
+
+.cart-list-title .cart-list-num {
+  margin-left: 150px;
+}
+
+.cart-list .cart-item {
+  clear:both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-list .cart-item-img{
+  width:120px;
+}
+
+.cart-list .cart-item-name{
+  position: absolute;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.cart-item-del{
+  display: inline;
+  position: absolute;
+  margin-left: 470px;
+}
+
+.cart-list .cart-item-price {
+  position: absolute;
+  margin-left: 560px;
+  color: #FF0000;
+}
+
+.cart-list .form_select_amount {
+  float:right;
+  margin-left: 50px;
+}
+
+.cart-list .cart-item-num {
+  width:100px;
+  height:30px;
+  font-size: 1.2em;
+}
+
+.cart-list .cart-item-num2 {
+    width: 50px;
+}
+
+.buy-sum-box{
+  clear:both;
+  margin-top: 10px;
+}
+
+.buy-sum-box .buy-sum-title{
+  margin-left: 620px;
+}
+
+.buy-sum-box .buy-sum-price{
+  margin-left: 30px;
+  font-size: 2em;
+  color: #FF0000;
+}
+
+span{
+    color:yellow;
+}
+
+.sold_out{
+    color:red;
+}
+
+h1{
+   text-align:center;
+  color: yellow;
+}
+
+.finish-item-price {
+  position: absolute;
+  margin-left: 800px;
+}

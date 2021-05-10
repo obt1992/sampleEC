@@ -1,0 +1,41 @@
+h1 {
+    witdh:960px;
+    border-bottom:solid 1px black;
+    padding:10px;
+}
+
+.top {
+    witdh:960px; 
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, tr, th, td {
+  border: solid 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  width: 20em;
+}
+
+caption {
+    text-align: left;
+}
+
+img {
+    width:200px;
+}
+
+.example1{
+    witdh: 600px;
+    height: 160px;
+}
+
+.example2{
+    witdh: 100em;
+    height: 160px;
+}
